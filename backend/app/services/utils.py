@@ -1,6 +1,12 @@
 from ..db import get_db_connection
 
+_data = None
+
 def load_data():
+    global _data
+    if _data is not None:
+        return _data
+
     conn = get_db_connection()
     cursor = conn.cursor(dictionary=True, buffered=True)
     
@@ -21,8 +27,9 @@ def load_data():
             JOIN clauses cl on cl.article_id = a.article_id
             GROUP BY a.article_id
         """)
-        data = cursor.fetchall()
-        return data
+        _data = cursor.fetchall()
+        
+        return _data
     except Exception as e:
         print(f"Error loading data: {e}")
         return []
@@ -35,7 +42,7 @@ def text_splitter(data):
     meta_data = []
     
     for row in data:
-        chunk = f"{row['article_title']}\n{row['all_clauses_content']}"
+        chunk = f"{row['article_title']} \n {row['all_clauses_content']}"
         chunk = chunk.lower()
         text_chunks.append(chunk)
         meta_data.append({
@@ -197,7 +204,6 @@ def normalize_nested_structure(data: dict) -> dict:
             "chapter_title": result.get("chapter_title", ""),
             "article_title": normalized["article_title"],
             "clause_content": normalized["clause_content"],
-            "demo": "demo"
         })
         
     else:

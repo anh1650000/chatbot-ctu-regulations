@@ -11,7 +11,7 @@ def semantic_search(query: str, k: int = 3):
     xq = get_sentence_embedding(query)
     
     D, I = index.search(xq, k)
-    return I[0], id_mapping
+    return D, I[0], id_mapping
 
 
 def fetch_results(I, id_mapping):
