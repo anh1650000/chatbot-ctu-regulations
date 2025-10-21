@@ -96,7 +96,7 @@ Các điểm chính:
 1) Sao chép biến môi trường mẫu và chỉnh sửa thông số kết nối:
 
 ```powershell
-Copy-Item backend/.env.example backend/.env
+backend/.env.example backend/.env
 ```
 
 2) Cài đặt Python packages (khuyến nghị dùng venv):
