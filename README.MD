@@ -17,7 +17,7 @@ Lưu ý: Các tính năng như phân loại intent, lưu lịch sử hội tho�
 
 ## 🏗️ Kiến trúc hệ thống
 
-Trình duyệt (Vue 3 + Vite)
+Trình duyệt (HTML + CSS3)
 → FastAPI Backend (Python)
 → Pipeline tìm kiếm (BM25 + FAISS: accent + non-accent)
 → MySQL (lưu cấu trúc văn bản nhiều cấp) và tệp dữ liệu nguồn (data/)
@@ -102,7 +102,7 @@ Trình duyệt (Vue 3 + Vite)
 │        ├─ build_ollama.py    # Khởi tạo model Ollama qua LangChain
 │        └─ embedding_tsne_visualization.py  # Visualize embeddings
 │
-├─ Web/                       # Frontend Vue 3 + HTML tĩnh
+├─ Web/                       # Frontend HTML tĩnh
 │  ├─ index.html              # Trang chủ
 │  ├─ login.html              # Trang đăng nhập
 │  ├─ register.html           # Trang đăng ký
