@@ -1,0 +1,78 @@
+#logout {
+    background-color: #ff5e5e;
+    color: white;
+    border: none;
+    padding: 2px 15px 5px 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.2s ease;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+#logout:hover {
+    background-color: #ff3b3b;
+}
+
+.body-account {
+    font-family: Arial, sans-serif;
+    background: #1f1f1f;
+    .container-account {
+        max-width: 410px;
+        height: auto;
+        width: 90%;
+        margin: 80px auto;
+        padding: 20px;
+        background: #323232;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(172, 172, 172, 0.173);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input,
+    button {
+        color: #eaeaea;
+        background-color: #6868687d;
+        width: 90%;
+        padding: 12px 10px;
+        margin: 15px 0;
+        border: 1px solid #45454552;
+        border-radius: 6px;
+    }
+
+    input:focus {
+        border-color: #a9a9a974;
+        box-shadow: 0 0 5px rgba(83, 83, 83, 0.5);
+        outline: none;
+    }
+
+    button {
+        background: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: bold;
+        margin-top: 10px;
+        width: 95%;
+    }
+
+    button:hover {
+        background: #45a049;
+    }
+
+    .switch {
+        text-align: center;
+        margin-top: 10px;
+        a {
+            text-decoration: none;
+            color: #f32136;
+            &:hover {
+                color: #1919d2;
+            }
+        }
+    }
+}

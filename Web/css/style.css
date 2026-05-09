@@ -1,0 +1,225 @@
+body {
+    font-family: Arial;
+    background: #1f1f1f;
+    color: #ebebeb;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "container-area";
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-size: 1rem;
+}
+
+.header {
+    grid-area: header;
+    background: unset;
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    outline: solid 0.1px #3f3f3f;
+    h1 {
+        margin-left: 20px;
+        font-size: 1.5em;
+        font-weight: normal;
+    }
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 7vh;
+    margin-right: 20px;
+    align-items: center;
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 1em;
+        &:hover {
+            color: #c9c9c9;
+        }
+    }
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #2a2a2a;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid #3f3f3f;
+}
+
+.user-avatar {
+    font-size: 1.2em;
+}
+
+#user-status {
+    font-weight: 600;
+    color: #fff;
+    font-size: 0.95em;
+}
+
+.logout-btn {
+    background: #3f3f3f;
+    background-color: #3f3f3f;
+    color: #fff;
+    border: 1px solid #5a5a5a;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.8em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.logout-btn:hover {
+    background: #4a4a4a;
+    border-color: #6a6a6a;
+    transform: scale(1.1);
+}
+
+.clear-btn {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.8em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+}
+
+.clear-btn:hover {
+    background: linear-gradient(135deg, #ff5252, #e04545);
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.5);
+}
+
+.clear-btn:active {
+    transform: scale(1.05);
+}
+
+.facts-button {
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7.5px 10px;
+    border-radius: 10px;
+}
+
+.facts-button:hover {
+    background-color: #3b3b3b;
+}
+
+.facts-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    backdrop-filter: blur(2px);
+}
+
+.facts-modal {
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    width: 90%;
+    height: 65vh;
+    border: 1px solid #5b5b5b97;
+    max-height: 60vh;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+    overflow: hidden;
+    justify-content: space-around;
+    > h2 {
+        margin: 0;
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+}
+
+.facts-list {
+    min-height: 40vh;
+    max-height: 50vh;
+    overflow-y: auto;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #5b5b5b97;
+    scrollbar-width: thin;
+    scrollbar-color: #5b5b5b97 transparent;
+    scroll-behavior: smooth;
+    > em {
+        display: block;
+        text-align: center;
+        margin-top: 20vh;
+        color: #a1a1a1;
+    }
+}
+
+.facts-list::-webkit-scrollbar {
+    width: 5px;
+    cursor: pointer;
+}
+
+.fact-item {
+    padding: 12.5px;
+    border-bottom: 1px solid #5b5b5b97;
+}
+
+.fact-item:last-child {
+    border-bottom: none;
+}
+
+#remove-all {
+    align-self: center;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #dfdfdf;
+    font-weight: 500;
+    border: 1px solid #5b5b5b97;
+    border-radius: 15px;
+    background-color: #ff4545;
+    cursor: pointer;
+}
+/* validate input */
+#remove-all:hover {
+    background-color: #b01e1e;
+}
+.input-error {
+    border: rgb(247, 136, 136) 2px solid;
+    box-shadow: 0 0 5px rgb(255, 151, 151);
+}
+
+.input-valid {
+    border-color: rgb(131, 255, 131);
+    box-shadow: 0 0 5px rgb(131, 255, 131);
+}
+
+.error-message {
+    color: #ff5757;
+    font-size: 0.9em;
+    height: 1.2em; /* Đặt chiều cao cố định để tránh nhảy layout */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}

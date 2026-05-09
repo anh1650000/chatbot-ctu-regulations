@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CTU Assistant</title>
+        <link rel="stylesheet" href="/Web/css/style.css" />
+        <link rel="stylesheet" href="/Web/css/auth.css" />
+        <link rel="stylesheet" href="/Web/css/chat.css" />
+    </head>
+    <body>
+        <article class="header">
+            <h1>CTU Assistant</h1>
+            <nav class="nav-links">
+                <a href="/Web/login.html" class="login-link">Đăng nhập</a>
+                <a href="/Web/register.html" class="register-link">Đăng ký</a>
+                <div class="user-info" style="display: none">
+                    <span class="user-avatar">👤</span>
+                    <span id="user-status"></span>
+                </div>
+                <button
+                    id="clear-history"
+                    class="clear-btn"
+                    style="display: none"
+                    title="Xóa lịch sử chat"
+                >
+                    🗑
+                </button>
+                <button
+                    id="logout"
+                    class="logout-btn"
+                    style="display: none"
+                    title="Đăng xuất"
+                >
+                    ➜]
+                </button>
+            </nav>
+        </article>
+        <article class="container">
+            <section id="chatbox"></section>
+            <section class="input-area">
+                <textarea
+                    id="input"
+                    placeholder="Nhập tin nhắn..."
+                    autocomplete="off"
+                ></textarea>
+                <button id="send" title="Gửi ">￪</button>
+            </section>
+        </article>
+        <script src="/Web/js/config.js"></script>
+        <script src="/Web/js/main.js"></script>
+        <script src="/Web/js/utils.js"></script>
+        <script src="/Web/js/auth.js"></script>
+        <script src="/Web/js/chat.js"></script>
+    </body>
+</html>

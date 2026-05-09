@@ -1,0 +1,392 @@
+{
+    "học lại": [
+        "thi lại",
+        "đăng ký học lại",
+        "học bù",
+        "làm lại",
+        "học phần lại"
+    ],
+    "điểm": [
+        "thang điểm",
+        "điểm số",
+        "kết quả học tập",
+        "điểm trung bình",
+        "điểm tổng kết"
+    ],
+    "điểm trung bình": [
+        "gpa",
+        "điểm bình quân",
+        "điểm học kỳ",
+        "điểm tích lũy"
+    ],
+    "điểm học phần": [
+        "điểm môn học",
+        "điểm thi",
+        "điểm kiểm tra"
+    ],
+    "điểm rèn luyện": [
+        "đánh giá rèn luyện",
+        "điểm hạnh kiểm",
+        "đrl",
+        "điểm rl"
+    ],
+    "thi": [
+        "kiểm tra",
+        "đánh giá",
+        "bài thi",
+        "thi kết thúc học phần"
+    ],
+    "học phần": [
+        "môn học",
+        "module",
+        "course"
+    ],
+    "học kỳ": [
+        "semester",
+        "kỳ học",
+        "term"
+    ],
+    "chương trình đào tạo": [
+        "curriculum",
+        "khung chương trình",
+        "chuyên ngành học",
+        "chương trình học"
+    ],
+    "tín chỉ": [
+        "credit",
+        "đơn vị học trình"
+    ],
+    "đăng ký học phần": [
+        "chọn môn học",
+        "đăng ký môn học",
+        "đăng ký lớp học"
+    ],
+    "giảng viên": [
+        "thầy cô",
+        "giáo viên",
+        "người dạy"
+    ],
+    "sinh viên": [
+        "học viên",
+        "người học",
+        "student"
+    ],
+    "đào tạo": [
+        "học tập",
+        "giáo dục",
+        "training",
+        "giảng dạy"
+    ],
+    "quy định": [
+        "nội quy",
+        "chính sách",
+        "hướng dẫn",
+        "quy tắc",
+        "quy trình"
+    ],
+    "miễn": [
+        "được miễn",
+        "không bắt buộc",
+        "được bỏ qua"
+    ],
+    "bắt buộc": [
+        "phải",
+        "cần",
+        "yêu cầu"
+    ],
+    "xử lý học vụ": [
+        "cảnh báo học vụ",
+        "xét học vụ",
+        "kỷ luật học tập"
+    ],
+    "nghỉ học": [
+        "bảo lưu",
+        "tạm ngưng học",
+        "ngừng học",
+        "xin nghỉ học"
+    ],
+    "bảo lưu": [
+        "ngừng học tạm thời",
+        "hoãn học",
+        "gián đoạn học tập"
+    ],
+    "ra trường": [
+        "tốt nghiệp",
+        "hoàn thành chương trình",
+        "xét tốt nghiệp"
+    ],
+    "tốt nghiệp": [
+        "hoàn tất học tập",
+        "ra trường",
+        "được cấp bằng"
+    ],
+    "bằng tốt nghiệp": [
+        "văn bằng",
+        "chứng chỉ",
+        "giấy chứng nhận tốt nghiệp"
+    ],
+    "phòng đào tạo": [
+        "phòng học vụ",
+        "ban đào tạo",
+        "phòng quản lý đào tạo"
+    ],
+    "khoa": [
+        "bộ môn",
+        "đơn vị đào tạo",
+        "khoa chuyên ngành"
+    ],
+    "đơn xin": [
+        "đơn đề nghị",
+        "đơn yêu cầu",
+        "mẫu đơn"
+    ],
+    "giấy tờ": [
+        "hồ sơ",
+        "văn bản",
+        "biểu mẫu"
+    ],
+    "thủ tục": [
+        "quy trình",
+        "bước thực hiện",
+        "hướng dẫn làm hồ sơ"
+    ],
+    "đăng ký": [
+        "nộp đơn",
+        "ghi danh",
+        "chọn lớp"
+    ],
+    "kỷ luật": [
+        "xử phạt",
+        "cảnh cáo",
+        "buộc thôi học",
+        "hình thức kỷ luật"
+    ],
+    "nội quy": [
+        "quy tắc",
+        "quy định",
+        "hướng dẫn thực hiện",
+        "nguyên tắc"
+    ],
+    "vi phạm": [
+        "lỗi",
+        "phạm quy",
+        "không tuân thủ",
+        "trái quy định"
+    ],
+    "xét kỷ luật": [
+        "kiểm điểm",
+        "hội đồng kỷ luật"
+    ],
+    "học bổng": [
+        "hỗ trợ học tập",
+        "khen thưởng",
+        "học bổng khuyến khích",
+        "học bổng chính sách"
+    ],
+    "miễn giảm học phí": [
+        "hỗ trợ học phí",
+        "giảm học phí",
+        "được miễn học phí"
+    ],
+    "chính sách sinh viên": [
+        "phúc lợi sinh viên",
+        "quyền lợi sinh viên",
+        "hỗ trợ sinh viên"
+    ],
+    "nhà ở sinh viên": [
+        "ký túc xá",
+        "khu nội trú",
+        "chỗ ở sinh viên"
+    ],
+    "nghĩa vụ quân sự": [
+        "nvqs",
+        "miễn nvqs",
+        "hoãn nvqs"
+    ],
+    "cấp lại": [
+        "làm lại",
+        "xin cấp mới",
+        "mất thẻ",
+        "cấp mới"
+    ],
+    "thẻ sinh viên": [
+        "thẻ sv",
+        "thẻ học viên",
+        "student card"
+    ],
+    "liên hệ": [
+        "gửi email",
+        "liên lạc",
+        "trao đổi",
+        "liên hệ phòng"
+    ],
+    "website": [
+        "trang web",
+        "trang chủ",
+        "hệ thống trực tuyến"
+    ],
+    "học lực": [
+        "kết quả học tập",
+        "transcript",
+        "xếp loại học lực",
+        "xếp loại",
+        "loại",
+        "xếp loại học tập"
+    ],
+    "loại":[
+        "xếp loại",
+        "hạng", 
+        "cấp độ",
+        "học lực",
+        "xếp hạng",
+        "đánh giá học tập",
+        "xếp loại kết quả học tập",
+        "xếp loại học tập"
+    ],
+    "song bằng": [
+        "học song song",
+        "học kép",
+        "chương trình kép",
+        "học hai bằng",
+        "học cùng lúc hai chương trình"
+    ],
+    "song ngành": [
+        "chuyên ngành kép",
+        "học hai chuyên ngành",
+        "theo học hai ngành",
+        "học cùng lúc hai chuyên ngành",
+        "học song song hai chuyên ngành",
+        "học cùng lúc hai chương trình",
+        "văn bằng hai",
+        "2 ngành",
+        "ngành kép",
+        "2 bằng",
+        "2 chương trình"
+    ],
+    "văn bằng hai": [
+        "học hai bằng",
+        "chương trình kép",
+        "học song bằng",
+        "học hai chương trình",
+        "học cùng lúc hai chương trình",
+        "văn bằng 2"
+    ],
+    "văn bằng 2": [
+        "học hai bằng",
+        "chương trình kép",
+        "học song bằng",
+        "học hai chương trình",
+        "học cùng lúc hai chương trình",
+        "văn bằng hai"
+    ],
+    "2 ngành": [
+        "song ngành",
+        "chuyên ngành kép",
+        "học hai chuyên ngành",
+        "theo học hai ngành",
+        "học cùng lúc hai chuyên ngành",
+        "học song song hai chuyên ngành",
+        "học cùng lúc hai chương trình",
+        "văn bằng hai",
+        "2 bằng",
+        "2 chương trình"
+    ],
+    "2 bằng": [
+        "song bằng",
+        "học hai bằng",
+        "chương trình kép",
+        "học cùng lúc hai chương trình",
+        "văn bằng hai",
+        "văn bằng 2",
+        "2 ngành",
+        "2 chương trình"
+    ],
+    "điểm m":[
+        "điểm học phần khác",
+        "các điểm học phần khác",
+        "điểm môn học khác",
+        "Điều 22. Điểm học phần. 5. Các điểm học phần khác.",
+        "Điều 22. Điểm học phần",
+        "5. Các điểm học phần khác."
+    ],
+    "điểm r":[
+        "điểm học phần khác",
+        "các điểm học phần khác",
+        "điểm môn học khác",
+        "Điều 22. Điểm học phần. 5. Các điểm học phần khác.",
+        "Điều 22. Điểm học phần",
+        "5. Các điểm học phần khác."
+    ],
+    "điểm i":[
+        "điểm học phần khác",
+        "các điểm học phần khác",
+        "điểm môn học khác",
+        "Điều 22. Điểm học phần. 5. Các điểm học phần khác.",
+        "Điều 22. Điểm học phần",
+        "5. Các điểm học phần khác."
+    ],
+    "điểm w":[
+        "điểm học phần khác",
+        "các điểm học phần khác",
+        "điểm môn học khác",
+        "Điều 22. Điểm học phần. 5. Các điểm học phần khác.",
+        "Điều 22. Điểm học phần",
+        "5. Các điểm học phần khác."
+    ],
+    "bị gì": [
+        "bị xử lý",
+        "bị kỷ luật",
+        "bị ảnh hưởng"
+    ],
+    "bị": [
+        "bị xử lý",
+        "bị kỷ luật",
+        "bị ảnh hưởng"
+    ],
+    "ra sao": [
+        "như thế nào",
+        "bị gì"
+    ],
+    "anh văn": [
+        "tiếng anh",
+        "ngoại ngữ"
+    ],
+    "pháp văn": [
+        "tiếng pháp",
+        "ngoại ngữ"
+    ],
+    "mẫu đơn": [
+        "đơn xin",
+        "đơn đề nghị",
+        "biểu mẫu"
+    ],
+    "file": [
+        "tệp",
+        "tập tin",
+        "mẫu đơn"
+    ],
+    "mẫu": [
+        "biểu mẫu",
+        "đơn xin",
+        "đơn đề nghị"
+    ],
+    "/": [
+        "ký hiệu",
+        "ký tự",
+        "ký hiệu phòng"
+    ],
+    "ở đâu": [
+        "phòng nào",
+        "vị trí nào",
+        "chỗ nào",
+        "sơ đồ nhà học",
+        "ký hiệu phòng"
+    ],
+    "phòng nào": [
+        "ở đâu",
+        "vị trí nào",
+        "chỗ nào",
+        "sơ đồ nhà học",
+        "ký hiệu phòng"
+    ]
+}

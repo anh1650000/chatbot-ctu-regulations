@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Đăng ký | Maid AI</title>
+        <link rel="stylesheet" href="/Web/css/style.css" />
+        <link rel="stylesheet" href="/Web/css/auth.css" />
+    </head>
+    <body id="register-page-body" class="body-account">
+        <div class="container-account">
+            <h2>Đăng ký</h2>
+            <input
+                type="text"
+                id="name"
+                class="input-field"
+                placeholder="Tên người dùng"
+            />
+            <!-- <span class="error-message" id="error-message-name"></span> -->
+            <input
+                type="text"
+                id="username"
+                class="input-field"
+                placeholder="Tên đăng nhập"
+            />
+            <!-- <span class="error-message" id="error-message-username"></span> -->
+            <input
+                type="password"
+                id="password"
+                class="input-field password-register"
+                placeholder="Password"
+            />
+            <span class="error-message" id="error-message"></span>
+            <button id="button-register" class="button">Register</button>
+
+            <div class="switch">
+                <a href="/Web/login.html">Đã có tài khoản? Login</a>
+            </div>
+        </div>
+
+        <script src="/Web/js/config.js"></script>
+        <script src="/Web/js/main.js"></script>
+        <script src="/Web/js/utils.js"></script>
+        <script src="/Web/js/auth.js"></script>
+    </body>
+</html>

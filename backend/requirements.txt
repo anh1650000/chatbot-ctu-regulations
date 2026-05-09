@@ -1,0 +1,28 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database
+mysql-connector-python
+python-dotenv
+
+# Security
+bcrypt
+
+# LangChain
+langchain
+langchain-community
+langchain-ollama
+
+# NLP & Vector Search
+sentence-transformers
+faiss-cpu
+rank-bm25
+
+# Vietnamese NLP
+underthesea
+pyvi
+
+# Utilities
+numpy
