@@ -71,7 +71,7 @@ Trình duyệt (Vue 3 + Vite)
 | Tìm kiếm   | FAISS, rank-bm25, tiền xử lý tiếng Việt |
 | LLM local  | Ollama (ví dụ: llama3.1:8b)             |
 | CSDL       | MySQL 8.x (utf8mb4)                     |
-| Frontend   | Vue 3 + Vite (cơ bản)                   |
+| Frontend   | HTML + CSS3                             |
 
 ---
 
@@ -136,7 +136,8 @@ Trình duyệt (Vue 3 + Vite)
 │  ├─ Conceptual Data_1.pdm
 │  ├─ PhysicalDataModel_2.cdm
 │  ├─ PhysicalDataModel_2.cdb
-│  └─ PhysicalDataModel_2.pdm
+│  ├─ PhysicalDataModel_2.pdm
+│  └─ BAO_CAO_NIEN_LUAN_CO_SO.docx
 │
 ├─ chuanhoa.py               # Script tiền xử lý/ingest dữ liệu vào DB
 ├─ normalize_raw_data.py     # Chuẩn hóa dữ liệu thô
@@ -188,21 +189,11 @@ Mở 2 terminal:
 1. Backend (FastAPI):
 
 ```powershell
-python -m uvicorn backend.app.main:app --host localhost --port 8000 --reload
+python -m uvicorn backend.app.main:app --reload
 ```
 
-2. Frontend (Vue 3 + HTML tĩnh):
+Truy cập ứng dụng tại: http://127.0.0.1:8000
 
-```powershell
-# Mở trực tiếp file Web/index.html trong trình duyệt
-# hoặc chạy server nhẹ (tuỳ chọn):
-cd Web
-python -m http.server 3000
-```
-
-Truy cập ứng dụng tại: http://localhost:3000 (hoặc mở Web/index.html trực tiếp)
-
-Endpoint API backend: http://localhost:8000/api/ask
 
 ---
 
