@@ -28,3 +28,4 @@ charts/
 raw_data/
 *.pptx
 *.sql
+.gitignore
